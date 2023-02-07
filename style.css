@@ -1,0 +1,14 @@
+button{
+    width: 180px;
+}
+
+#button-div{
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 10px;
+    width: 100%;
+    z-index: 1; /* this is how forward or backward an element is on a screen */
+}
